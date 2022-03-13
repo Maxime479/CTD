@@ -108,8 +108,13 @@ main{
   /*font-size: 1.7em;*/
   font-size: 1.1rem;
   color: #2a2a2a;
+}
+
+a{
   text-decoration: none;
 }
+
+
 .type{
   align-self: flex-start;
   font-weight: 500;
