@@ -8,6 +8,7 @@
 header{
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #ffffff;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -19,6 +20,20 @@ header{
   margin-bottom: 5em;
 }
 
+header div{
+  width: fit-content;
+  flex-flow: row nowrap;
+}
+
+@media screen and (max-width: 500px) {
+  header div {
+    width: min-content;
+  }
+  .mainContainer{
+    width: 50%;
+  }
+}
+
 body{
   /*background-color: #C2C094;*/
   background-color: #F8F8FA;
@@ -28,6 +43,9 @@ h1{
   font-weight: 500;
   font-size: 3em;
   color: #000000;
+  /*align-self: center;*/
+  justify-content: center;
+  align-self: center;
 }
 
 main{
