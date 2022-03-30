@@ -1,5 +1,11 @@
 
 
+.dlButton{
+  width: 2em;
+  height: 2em;
+  align-self: flex-end;
+}
+
 .appIcon{
   width: 2.5em;
   height: 2.5em;
@@ -89,6 +95,13 @@ main{
 /*  border-top-right-radius: inherit;*/
 /*}*/
 
+.dlContainer div{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
 
 .dlContainer{
 
@@ -99,7 +112,7 @@ main{
   margin: 1em 0;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   gap: 0.7em;
   width: 100%;
